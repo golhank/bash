@@ -1,0 +1,20 @@
+Bash Scripting
+V1.0
+Tags: bash, scripting
+
+Alberto Martino
+Developer, Analist, Gopher
+malberto.martino@gmail.com
+https://github.com/hankmartinez
+@malberto_a
+
+* $Bash
+Bourne-Again SHell è la una command language interpreter in grado appunto da interpretare quelli che sono i comandi unix inseriti da terminale.
+Bourne shell dal nome del suo autore originario Stephen Bourne.
+E' un evoluzione del comando */bin/sh*.
+
+_init_ 
+All'avvio *bash* carica i seguenti file (in ordine di importanza):
+- /etc/profile
+- sotto la $HOME(il primo dei tre esistenti) `.bash_profile`   `.bash_login`    `.profile`
+- `.bashrc` sotto $HOME
