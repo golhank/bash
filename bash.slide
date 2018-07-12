@@ -15,6 +15,7 @@ E' un evoluzione del comando */bin/sh*.
 
 _init_ 
 All'avvio *bash* carica i seguenti file (in ordine di importanza):
+
 - /etc/profile
 - sotto la $HOME(il primo dei tre esistenti) `.bash_profile`   `.bash_login`    `.profile`
 - `.bashrc` sotto $HOME
